@@ -1,5 +1,5 @@
 //SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.5.0;
+pragma solidity ^0.6.0;
 
 import "https://github.com/nikaluka/aave/blob/flash/Ownable.sol";
 import "https://github.com/aave/aave-protocol/blob/master/contracts/libraries/openzeppelin-upgradeability/InitializableAdminUpgradeabilityProxy.sol";

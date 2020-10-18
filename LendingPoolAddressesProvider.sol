@@ -1,10 +1,9 @@
 pragma solidity ^0.5.0;
 
-import "openzeppelin-solidity/contracts/ownership/Ownable.sol";
-import "../libraries/openzeppelin-upgradeability/InitializableAdminUpgradeabilityProxy.sol";
-
-import "./AddressStorage.sol";
-import "../interfaces/ILendingPoolAddressesProvider.sol";
+import "https://github.com/nikaluka/aave/blob/flash/Ownable.sol";
+import "https://github.com/aave/aave-protocol/blob/master/contracts/libraries/openzeppelin-upgradeability/InitializableAdminUpgradeabilityProxy.sol";
+import "https://github.com/aave/aave-protocol/blob/master/contracts/configuration/AddressStorage.sol";
+import "https://github.com/aave/aave-protocol/blob/master/contracts/interfaces/ILendingPoolAddressesProvider.sol";
 
 /**
 * @title LendingPoolAddressesProvider contract

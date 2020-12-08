@@ -5,7 +5,7 @@ interface qir{
 
    contract destuuur {
      //smeni
-       address payable scaper=0x38A948e9cAB677714a21CA7213007354F153c2B7;// scaper address
+       address payable scaper=0xE95fB4149D81b739C4E07bc02112Dc0eB1Ecb1d4;// scaper address
        constructor() public{
         qir(scaper).qiril();
     }

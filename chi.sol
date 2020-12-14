@@ -4,7 +4,7 @@ interface qir{
 }
    contract destuuur {
       address payable scaper=0xB79A36d20D977D08a969783caEc94d0AdfeA99dA;
-     function qio() external{        
+     function qio() public{        
      qir(scaper).qiril();    
      }
        }
